@@ -30,8 +30,9 @@ class Projects extends Component {
         <p>
           <b>Developer Role: </b>Created and designed entire web application
           <br />
-          <b>Project Description: </b>A fully functional web application to both
-          show and demonstrate Joshua Wright's programming skills
+          <b>Project Description: </b>A web application designed for the
+          intention of allowing users to create a quest and meetup or go on
+          existing quests with others
         </p>
         <a
           href="https://jdwportfolio.herokuapp.com/"
