@@ -9,11 +9,10 @@ class Home extends Component {
         <h1> Who am I? </h1>
         <span className="container">
           <p className="item1">
-            Born and raise in Santa Rosa, California. Raised in a family of
-            five, me being the youngest of my other siblings. I attended the
-            Santa Rosa Junior College from 2013 to 2018. After graduation, I
-            transferred to University of California, Davis. Before I started at
-            UCD, I interned at CalSTRS and got to build programs in both Python
+            Born and raised in Santa Rosa, California. I attended the Santa Rosa
+            Junior College from 2013 to 2018. After graduation, I transferred to
+            University of California, Davis. Before I started at UCD, I interned
+            at CalSTRS and had the opportunity to build programs in both Python
             and R. As a first generation student I'm dedicated to change the
             world and leave a footprint.
           </p>
@@ -29,7 +28,7 @@ class Home extends Component {
               <b>Software Development: </b> Git/Github
               <br />
               <b>Quantitative: </b> Probability, Multivariable Calculus, Linear
-              Algebra
+              Algebra, Discrete Math
             </p>
           </span>
         </span>
