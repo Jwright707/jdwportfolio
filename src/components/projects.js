@@ -34,7 +34,7 @@ class Projects extends Component {
           show and deminstrate Joshua Wright's programming skills
         </p>
         <a
-          href="https://polar-mesa-35819.herokuapp.com/"
+          href="https://jdwportfolio.herokuapp.com/"
           target="_blank"
           className="tripQuestHover"
         >
