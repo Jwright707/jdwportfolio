@@ -7,11 +7,11 @@ class Projects extends Component {
   render() {
     return (
       <div className="projectsPage">
-        <h2 className="titles">Sac-Hack's Project</h2>
+        <h2 className="titles">Trip Quest</h2>
         <br />
         <p>
-          <b>Developer Role: </b>Created React components and design of web
-          application
+          <b>Developer Role: </b>Created and implemented React components in a
+          web application.
           <br />
           <b>Project Description: </b> A web application designed for the
           intention of allowing users to create a quest and meetup or go on
@@ -25,10 +25,11 @@ class Projects extends Component {
           <img src={tripQuest} className="tripQuest" />
         </a>
         <hr />
-        <h2 className="titles">Personal Website</h2>
+        <h2 className="titles">Autobiographical Website</h2>
         <br />
         <p>
-          <b>Developer Role: </b>Created and designed entire web application
+          <b>Developer Role: </b>Designed and implemented a website containing
+          personal and professional information about me.
           <br />
           <b>Project Description: </b>
           An autobiographical web application designed by me for the intended
