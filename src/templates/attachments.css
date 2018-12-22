@@ -36,6 +36,7 @@
   margin-top: 5%;
   box-shadow: -4px 3px 10px black;
   transition-duration: 2s;
+  margin-bottom: 3%;
 }
 
 .pi:hover {
@@ -71,7 +72,10 @@ p.atch4 {
   margin-bottom: 5%;
 }
 
-a {
+.downloadlink {
   font-weight: normal;
-  font-size: 80%;
+  font-size: 70%;
+  border: 3px solid black;
+  padding: 1%;
+  background: coral;
 }

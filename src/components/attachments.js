@@ -20,7 +20,7 @@ class attachments extends Component {
             <img src={transcriptPic} className="pi" />
           </a>
           <br />
-          <a href={transcript} download>
+          <a href={transcript} download className="downloadlink">
             Download
           </a>
         </p>
@@ -31,7 +31,7 @@ class attachments extends Component {
             <img src={resumePic} className="pi" />
           </a>
           <br />
-          <a href={resume} download>
+          <a href={resume} download className="downloadlink">
             Download
           </a>
         </p>
@@ -42,7 +42,7 @@ class attachments extends Component {
             <img src={personalRPic} className="pi" />
           </a>
           <br />
-          <a href={personalR} download>
+          <a href={personalR} download className="downloadlink">
             Download
           </a>
         </p>
@@ -53,7 +53,7 @@ class attachments extends Component {
             <img src={coverLetterPic} className="pi" />
           </a>
           <br />
-          <a href={coverLetter} download>
+          <a href={coverLetter} download className="downloadlink">
             Download
           </a>
         </p>

@@ -7,7 +7,7 @@ class Projects extends Component {
   render() {
     return (
       <div className="projectsPage">
-        <h2>Sac-Hack's Project</h2>
+        <h2 className="titles">Sac-Hack's Project</h2>
         <br />
         <p>
           <b>Developer Role: </b>Created React components and design of web
@@ -24,8 +24,8 @@ class Projects extends Component {
         >
           <img src={tripQuest} className="tripQuest" />
         </a>
-
-        <h2>Personal Website</h2>
+        <hr />
+        <h2 className="titles">Personal Website</h2>
         <br />
         <p>
           <b>Developer Role: </b>Created and designed entire web application

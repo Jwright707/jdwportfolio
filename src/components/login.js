@@ -40,10 +40,21 @@ class Login extends Component {
   render() {
     return (
       <div>
-        <h2> Phone Number: 707-548-2622</h2>
-        <h2> Email: jzwright@ucdavis.edu</h2>
+        <span className="contactinfo">
+          <p className="listEmail">
+            <b>Main Email: </b>
+            <a href="mailto:jzwright@ucdavis.edu">jzwright@ucdavis.edu</a>
+            <br />
+            <b>Alt. Email: </b>
+            <a href="mailto:Mr.Wright707@outlook.com">
+              Mr.Wright707@outlook.com
+            </a>
+            <br />
+            <b>Phone Number: </b> 707-548-2622
+          </p>
+        </span>
 
-        <Form onSubmit={this.handleSubmit} className="contactPage">
+        {/* <Form onSubmit={this.handleSubmit} className="contactPage">
           <FormGroup>
             <Label htmlFor="name">Name</Label>
             <Input
@@ -80,7 +91,7 @@ class Login extends Component {
           <Button color="success" className="button">
             Send
           </Button>
-        </Form>
+        </Form> */}
         <span className="socialIcons">
           <SocialIcon
             url="https://www.linkedin.com/in/joshua-wright-29089a94/"

@@ -8,6 +8,7 @@ import {
   NavLink
 } from "reactstrap";
 import React, { Component } from "react";
+import "../templates/navbar.css";
 
 class Navbr extends Component {
   constructor(props) {
@@ -27,17 +28,19 @@ class Navbr extends Component {
     return (
       <div>
         <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">Joshua Wright</NavbarBrand>
+          <NavbarBrand href="/" className="toptitle">
+            Joshua Wright
+          </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
-              <NavItem>
+              <NavItem className="item">
                 <NavLink href="/projects">Projects</NavLink>
               </NavItem>
-              <NavItem>
+              <NavItem className="item">
                 <NavLink href="/attachments">Attachments</NavLink>
               </NavItem>
-              <NavItem>
+              <NavItem className="item">
                 <NavLink href="/login">Contact Information</NavLink>
               </NavItem>
             </Nav>

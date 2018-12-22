@@ -19,6 +19,7 @@ class Home extends Component {
           </p>
           <img src={pic} className="pic" alt="joshua_wright" />
           <span className="item2">
+            <hr />
             <h2>Skills</h2>
             <p className="skills">
               <b>Productive: </b> Python, R, HTML, CSS
