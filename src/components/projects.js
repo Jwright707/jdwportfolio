@@ -13,9 +13,9 @@ class Projects extends Component {
           <b>Developer Role: </b>Created React components and design of web
           application
           <br />
-          <b>Project Description: </b> A web application revolved around getting
-          people out and adventuring with quests. These quests are either
-          created by a user or already existing.
+          <b>Project Description: </b> A web application designed for the
+          intention of allowing users to create a quest and meetup or go on
+          existing quests with others
         </p>
         <a
           href="https://polar-mesa-35819.herokuapp.com/"
@@ -30,9 +30,10 @@ class Projects extends Component {
         <p>
           <b>Developer Role: </b>Created and designed entire web application
           <br />
-          <b>Project Description: </b>A web application designed for the
-          intention of allowing users to create a quest and meetup or go on
-          existing quests with others
+          <b>Project Description: </b>
+          An autobiographical web application designed by me for the intended
+          purpose of demonstrating some of my programming capabilities and
+          allowing people to view my personal/professional background.
         </p>
         <a
           href="https://jdwportfolio.herokuapp.com/"
