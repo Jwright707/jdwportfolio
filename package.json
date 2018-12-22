@@ -2,7 +2,7 @@
   "name": "reactjs_practice",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Jwright707.github.io/DummyRepo/",
+  "homepage": "https://Jwright707.github.io/jdwportfolio/",
   "dependencies": {
     "axios": "^0.18.0",
     "gh-pages": "^2.0.1",
