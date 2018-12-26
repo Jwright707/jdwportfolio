@@ -9,12 +9,13 @@ class Home extends Component {
         <h1> Who am I? </h1>
         <span className="container">
           <p className="item1">
-            Born and raised in Santa Rosa, California. I attended the Santa Rosa
-            Junior College from 2013 to 2018. After graduation, I transferred to
-            University of California, Davis. Before I started at UCD, I interned
-            at CalSTRS and had the opportunity to build programs in both Python
-            and R. As a first generation student I'm dedicated to change the
-            world and leave a footprint.
+            My name is Joshua Wright and I am a full-time student at the
+            University of California, Davis. I am working towards a Bachelor of
+            Science in Computer Science and a minor in Economics. My main focus
+            and inspiration for my studies is web development and full-stack
+            development. I am very passionate about Software Development, and I
+            strive to better myself as a developer by constantly learning and
+            programming in my free time.
           </p>
           <img src={pic} className="pic" alt="joshua_wright" />
           <span className="item2">
