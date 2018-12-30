@@ -1,10 +1,11 @@
 import React, { Component } from "react";
+import "../templates/trademark.css";
 
 class tradeMark extends Component {
   render() {
     return (
       <div>
-        <h2>All rights are reserved to Joshua D. Wright</h2>
+        <i className="tm">All rights are reserved to Joshua D. Wright</i>
       </div>
     );
   }

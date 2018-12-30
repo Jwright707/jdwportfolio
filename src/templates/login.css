@@ -20,8 +20,8 @@
   margin: auto;
   text-align: center;
   padding: 10px;
-  position: fixed;
-  bottom: 0;
+  position: absolute;
+  bottom: 5px;
   left: 0;
   right: 0;
 }

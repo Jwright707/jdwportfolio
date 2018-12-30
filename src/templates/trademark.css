@@ -1,0 +1,11 @@
+.tm {
+  display: block;
+  text-align: center;
+  opacity: 1;
+  font-size: 80%;
+  color: black;
+  bottom: 0px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+}

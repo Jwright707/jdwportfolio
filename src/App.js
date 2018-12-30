@@ -6,7 +6,7 @@ import Home from "./components/home";
 import Error from "./components/error";
 import Navbr from "./components/navbar";
 import Projects from "./components/projects";
-import tradeMark from "./components/trademark";
+import TM from "./components/trademark";
 import attachMents from "./components/attachments";
 
 class App extends Component {
@@ -23,7 +23,7 @@ class App extends Component {
             <Route component={Error} />
           </Switch>
         </BrowserRouter>
-        <tradeMark />
+        <TM />
       </div>
     );
   }
