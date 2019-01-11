@@ -24,9 +24,10 @@ class Home extends Component {
             <p className="skills">
               <b>Productive: </b> Python, R, HTML, CSS
               <br />
-              <b>Familiar: </b> Java, C++, JavaScript, ReactJS, Django, SQL
+              <b>Familiar: </b> Java, C++, JavaScript, ReactJS, Django, SQL,
+              WordPress
               <br />
-              <b>Software Development: </b> Git/Github, Heroku
+              <b>Software Development: </b> Git/Github
               <br />
               <b>Quantitative: </b> Probability, Multivariable Calculus, Linear
               Algebra, Discrete Math
