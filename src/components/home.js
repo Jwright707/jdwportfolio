@@ -27,7 +27,8 @@ class Home extends Component {
               <b>Familiar: </b> Java, C++, JavaScript, ReactJS, Django, SQL,
               WordPress
               <br />
-              <b>Software Development: </b> Git/Github
+              <b>Software Development: </b> Git/Github, Travis CI, Agile,
+              Apache, Docker, Junit
               <br />
               <b>Quantitative: </b> Probability, Multivariable Calculus, Linear
               Algebra, Discrete Math
