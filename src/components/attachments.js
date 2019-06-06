@@ -14,13 +14,13 @@ class attachments extends Component {
     return (
       <div className="attachmentsPage">
         <p className="atch1">
-          UC Davis Transcript
+          Cover Letter
           <br />
-          <a href={transcript} target="_blank">
-            <img src={transcriptPic} className="pi" />
+          <a href={coverLetterPic} target="_blank">
+            <img src={coverLetterPic} className="pi" />
           </a>
           <br />
-          <a href={transcript} download className="downloadlink">
+          <a href={coverLetter} download className="downloadlink">
             Download
           </a>
         </p>
@@ -43,17 +43,6 @@ class attachments extends Component {
           </a>
           <br />
           <a href={personalR} download className="downloadlink">
-            Download
-          </a>
-        </p>
-        <p className="atch4">
-          Cover Letter
-          <br />
-          <a href={coverLetterPic} target="_blank">
-            <img src={coverLetterPic} className="pi" />
-          </a>
-          <br />
-          <a href={coverLetter} download className="downloadlink">
             Download
           </a>
         </p>
