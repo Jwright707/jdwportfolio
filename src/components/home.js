@@ -22,11 +22,11 @@ class Home extends Component {
             <hr />
             <h2>Skills</h2>
             <p className="skills">
-              <b>Productive: </b> Python, R, HTML, CSS, ReactJS
+              <b>Productive: </b> Python, ReactJS, Redux, Javascript, R, HTML,
+              and CSS
               <br />
-              <b>Familiar: </b> Java, C++, JavaScript, Django, SQL, WordPress,
-              Nginx, PHP with Laravel, PostgreSQL, Redis, Node.js with
-              Express.js, Bash
+              <b>Familiar: </b> Java, SQL, C++, Flask, Django, WordPress, Nginx,
+              PostgreSQL, Node.js, Express.js, Bash
               <br />
               <b>Software Development: </b> Git/Github, Travis CI, Agile,
               Apache, Docker, Junit, Google Cloud

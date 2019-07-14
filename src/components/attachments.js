@@ -14,17 +14,6 @@ class attachments extends Component {
     return (
       <div className="attachmentsPage">
         <p className="atch1">
-          Cover Letter
-          <br />
-          <a href={coverLetterPic} target="_blank">
-            <img src={coverLetterPic} className="pi" />
-          </a>
-          <br />
-          <a href={coverLetter} download className="downloadlink">
-            Download
-          </a>
-        </p>
-        <p className="atch2">
           Resume
           <br />
           <a href={resumePic} target="_blank">
@@ -35,7 +24,7 @@ class attachments extends Component {
             Download
           </a>
         </p>
-        <p className="atch3">
+        <p className="atch2">
           Personal References
           <br />
           <a href={personalRPic} target="_blank">
