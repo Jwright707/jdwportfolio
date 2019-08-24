@@ -3,6 +3,7 @@ import { Button, Form, FormGroup, Label, Input } from "reactstrap";
 import "../templates/login.css";
 import { SocialIcon } from "react-social-icons";
 import axios from "axios";
+import resume from "../pictures/Resume(CS).docx";
 
 class Login extends Component {
   constructor() {
@@ -51,6 +52,11 @@ class Login extends Component {
             </a>
             <br />
             <b>Phone Number: </b> 707-548-2622
+            <br />
+            <b>Resume: </b>
+            <a href={resume} download className="downloadlink">
+            Download
+            </a>
           </p>
         </span>
 

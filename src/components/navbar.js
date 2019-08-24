@@ -37,9 +37,9 @@ class Navbr extends Component {
               <NavItem className="item">
                 <NavLink href="/projects">Projects</NavLink>
               </NavItem>
-              <NavItem className="item">
-                <NavLink href="/attachments">Attachments</NavLink>
-              </NavItem>
+              {/*<NavItem className="item">*/}
+              {/*  <NavLink href="/attachments">Attachments</NavLink>*/}
+              {/*</NavItem>*/}
               <NavItem className="item">
                 <NavLink href="/login">Contact Information</NavLink>
               </NavItem>

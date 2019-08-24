@@ -18,23 +18,23 @@ class Home extends Component {
             programming in my free time.
           </p>
           <img src={pic} className="pic" alt="joshua_wright" />
-          <span className="item2">
-            <hr />
-            <h2>Skills</h2>
-            <p className="skills">
-              <b>Productive: </b> Python, ReactJS, Redux, Javascript, R, HTML,
-              and CSS
-              <br />
-              <b>Familiar: </b> Java, SQL, C++, Flask, Django, WordPress, Nginx,
-              PostgreSQL, Node.js, Express.js, Bash
-              <br />
-              <b>Software Development: </b> Git/Github, Travis CI, Agile,
-              Apache, Docker, Junit, Google Cloud
-              <br />
-              <b>Quantitative: </b> Probability, Multivariable Calculus, Linear
-              Algebra, Discrete Math
-            </p>
-          </span>
+          {/*<span className="item2">*/}
+          {/*  <hr />*/}
+          {/*  <h2>Resume</h2>*/}
+            {/*<p className="skills">*/}
+            {/*  <b>Productive: </b> Python, ReactJS, Redux, Javascript, R, HTML,*/}
+            {/*  and CSS*/}
+            {/*  <br />*/}
+            {/*  <b>Familiar: </b> Java, SQL, C++, Flask, Django, WordPress, Nginx,*/}
+            {/*  PostgreSQL, Node.js, Express.js, Bash*/}
+            {/*  <br />*/}
+            {/*  <b>Software Development: </b> Git/Github, Travis CI, Agile,*/}
+            {/*  Apache, Docker, Junit, Google Cloud*/}
+            {/*  <br />*/}
+            {/*  <b>Quantitative: </b> Probability, Multivariable Calculus, Linear*/}
+            {/*  Algebra, Discrete Math*/}
+            {/*</p>*/}
+          {/*</span>*/}
         </span>
       </div>
     );

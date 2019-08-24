@@ -7,7 +7,7 @@ import Error from "./components/error";
 import Navbr from "./components/navbar";
 import Projects from "./components/projects";
 import TM from "./components/trademark";
-import attachMents from "./components/attachments";
+import attachments from "./components/attachments";
 
 class App extends Component {
   render() {
@@ -19,7 +19,7 @@ class App extends Component {
             <Route exact path="/" component={Home} />
             <Route path="/login" component={Login} />
             <Route path="/projects" component={Projects} />
-            <Route path="/attachments" component={attachMents} />
+            <Route path="/attachments" component={attachments} />
             <Route component={Error} />
           </Switch>
         </BrowserRouter>

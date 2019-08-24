@@ -20,7 +20,7 @@
 }
 
 .pi {
-  width: 100%;
+  width: 30vw;
   height: 100vh;
   border: 3px solid black;
   margin-top: 5%;
@@ -64,8 +64,8 @@ p.atch4 {
 
 .downloadlink {
   font-weight: normal;
-  font-size: 70%;
-  border: 3px solid black;
+  font-size: 100%;
+  /*border: 3px solid black;*/
   padding: 1%;
-  background: coral;
+  /*background: coral;*/
 }

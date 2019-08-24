@@ -2,12 +2,30 @@ import React, { Component } from "react";
 import "../templates/projects.css";
 import tripQuest from "../pictures/tripQuestPic.PNG";
 import personalW from "../pictures/personalW.PNG";
+import foodBackpack from '../pictures/foodbackpack_logo.png'
 
 class Projects extends Component {
   render() {
     return (
       <div className="projectsPage">
-        <h2 className="titles">Trip Quest</h2>
+          <h2 className="titles">Food Backpack</h2>
+          <br />
+          <p>
+              <b>Developer Role: </b> Created, implemented, and designed the entire website from scratch.
+              <br />
+              <b>Project Description: </b>
+              FoodBackpack is designed for college students who are tired of making
+              frozen meals for breakfast, lunch, dinner, or dessert.
+          </p>
+          <a
+              href="https://foodbackpack.com"
+              target="_blank"
+              className="tripQuestHover"
+          >
+              <img src={foodBackpack} className="tripQuest" />
+          </a>
+          <hr />
+          <h2 className="titles">Trip Quest</h2>
         <br />
         <p>
           <b>Developer Role: </b>Created and implemented React components in a
